@@ -1,0 +1,35 @@
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+
+# Ignore the virtual environment directory
+# Replace 'venv' with the actual name of your virtual environment if different
+venv/
+env/
+.env/
+
+# Ignore the .flet directory created by Flet for storing cached files
+.flet/
+
+# Ignore environment variable files
+.env
+
+# Ignore the PyCharm project files (if using PyCharm)
+.idea/
+
+# Ignore VS Code workspace settings (if using VS Code)
+.vscode/
+
+# Ignore operating system-specific files
+.DS_Store          # macOS
+Thumbs.db          # Windows
+
+# Ignore any other temporary files
+*.swp
+*.swo
+*.bak
+*.log
+*.tmp
